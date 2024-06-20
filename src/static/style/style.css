@@ -1,0 +1,696 @@
+/* pages/style/style.wxss */
+
+/* pages/style/style.wxss */
+image{
+	flex-shrink: 0;/*防止被压缩*/
+}
+view{
+	flex-shrink: 0;/*防止被压缩*/
+}
+/* 解决英文不换行 */
+.yingwenhans{
+	word-break:break-all;
+}
+.background1 {
+  background-color: #fff;
+}
+ 
+.background2 {
+  background-color: #f5f5f5;
+}
+
+.height {
+  height: 100%;
+}
+.yincang1 {
+  opacity: 0;
+}
+.backP {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.margin {
+  margin: 10px;
+}
+
+.margin1 {
+  margin: 10px 0px;
+}
+
+.margin2 {
+  margin: 10px 0px 0px 0px;
+}
+
+.margin3 { 
+  margin-left: 10px;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.padding1 {
+  padding: 5px;
+}
+
+.border {
+  border: 1px solid #c0c0c0;
+}
+
+/* 横着 */
+
+.roww {
+  display: flex;
+  flex-direction: row;
+}
+/* 文字大小不一，文字对齐 */
+.duiqi{
+	align-items: baseline;
+}
+/* 竖着 */
+
+.colonn {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 上下居中 */
+
+.center_top11 {
+  justify-content: left;
+  align-items: center;
+}
+
+/* 盒子底部 */
+.bottom {
+  justify-content: left;
+  align-items: flex-end;
+}
+
+/* 左右居中 */
+
+.center_left {
+  justify-content: center;
+  align-items: left;
+}
+
+.center_left1 {
+  justify-content: center;
+  align-items: center;
+}
+/* 左右居中 */
+.center_left33 {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.center_left33_zhen {
+  justify-content: start;
+  align-items: center;
+}
+/* 上下居中把 */
+.center_left2 {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* 屏幕中间 */
+
+.center_center {
+  justify-content: center;
+  align-items: center;
+}
+
+/* 父组件底部 */
+
+.center_top {
+  justify-content: left;
+  align-items: flex-end;
+}
+
+.bottompreent {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+
+/* 末尾处 */
+.endend {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* 屏幕下方左边 */
+
+.viewbottom {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  flex: 1001;
+}
+/* 屏幕下方右边 */
+
+.viewbottomright {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  flex: 1001;
+}
+
+/* 屏幕上方左边 */
+
+.viewTop {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  flex: 1001;
+}
+/* 屏幕上方右边 */
+.viewTopright {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  flex: 1001;
+}
+
+.rowsal {display: flex;justify-content: space-around;flex-direction: column;}  /* 盒子内容竖向中间间隙布局 */
+.rowsbl {display: flex;justify-content: space-between;flex-direction: column;}  /* 盒子内容竖向两端间隙布局 */
+ 
+ 
+ 
+.rowsa {display: flex;justify-content: space-around;}  /* 盒子内容居中间间隙布局 */
+.rowsb {display: flex;justify-content: space-between;}  /* 盒子内容两端间隙布局 */
+
+/* 透明背景 */
+.touBlack{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* 基本数据 */
+
+.width {
+  width: 100%;
+}
+
+.margin {
+  padding-bottom: 30rpx;
+}
+
+.padding2 {
+  padding: 5px 10px;
+}
+
+/* 沾满一行 */ 
+
+.allline {
+  flex: 1;
+}
+.allline1 {
+  flex:2;
+}
+.allline2 {
+  flex:3;
+}
+/* 对话框底部 */
+
+.alertview {
+  background: rgba(0, 0, 0, 0.7);
+  background-color: black;
+  opacity: 0.7;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  font-weight: 10;
+}
+
+/* 基于浏览器父类 */
+
+.preChro {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+/* 限制显示文本长度 */
+
+.txtShowLength {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.txtShowLength1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.txtShowLength2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* flex换行 */
+
+.huanhang {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* 白线 */
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+}
+
+/* 灰线 */
+
+.line1 {
+  width: 100%;
+  height: 1px;
+  background-color: #c0c0c0;
+}
+
+.line2 {
+  width: 95%;
+  height: 1px;
+  margin-left: 5%;
+  background-color: #c0c0c0;
+}
+
+.line3 {
+  width: 100%;
+  height: 1px;
+  background-color: #f5f5f5;
+  margin: 5px 0px 10px 0px;
+}
+
+.line4 {
+  width: 100%;
+  height: 1px;
+  background-color: #f5f5f5;
+}
+.line5 {
+  width: 100%;
+  height: 1px;
+  background-color: #f5f5f5;
+}
+.line5 {
+  width: 100%;
+  height: 2px;
+  background-color: #f5f5f5;
+}
+/* 短线 */
+
+.somallline {
+  width: 20%;
+  height: 1px;
+  background-color: white;
+  margin: 10px 0px 10px 0px;
+}
+
+/* 图标样式 */
+
+.imgico {
+  width: 20px;
+  height: 20px;
+}
+
+.imgico1 {
+  width: 15px;
+  height: 15px;
+}
+
+.imgico2 {
+  width: 15px;
+  height: 15px;
+}
+
+/* 边框间隔 */
+
+.pingmuJiange {
+  padding: 10px;
+}
+.border1{
+  border-bottom:1px solid rgba(238,238,238,1);
+}
+
+/* 居中 */
+
+.leftcenter {
+  justify-content: center;
+  align-items: center;
+}
+
+/* 顶部外边框 */
+
+.outMargin {
+  margin-top: 10px;
+}
+
+/* 左边外边框 */
+
+.outMarginLeft {
+  margin-left: 10px;
+}
+
+.bianjie {
+  border-top: 1px solid #e1e1e1;
+}
+
+/* 位移 */
+
+.weiyi {
+  position: relative;
+  top: -33px;
+  left: 0px;
+}
+
+/* 父类的底部 */
+
+.perbottom {
+  justify-content: left;
+  align-items: flex-end;
+}
+
+/* 父类的顶部 */
+
+.pertop {
+  justify-content: left;
+  align-items: flex-start;
+}
+
+/* 底部分界线 */
+
+.bottomBorder {
+  border-bottom: 1px solid #bfbfbf;
+  padding: 10px;
+}
+
+.bottomBorder1 {
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 5px;
+}
+
+.bottomBorder2 {
+  border-bottom: 1px solid #bfbfbf;
+  margin: 10px;
+}
+
+.bottomBorder3 {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+/* 顶部分界线 */
+
+.line5 {
+  height: 5px;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+.line6 {
+  height: 10px;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+.line7 {
+  height: 5px;
+  background-color: #fff;
+  width: 100%;
+}
+
+/* 内边距 */
+
+.neiPadding {
+  padding: 0px 20px 0px 0px;
+}
+
+.neiPadding1 {
+  padding: 10px 10px 10px 10px;
+}
+
+.neiPadding2 {
+  padding: 0px 10px 10px 10px;
+}
+
+/* 字体大小 */
+
+.font-size {
+  font-size: 15px;
+  color: #8a8a8a;
+}
+
+/* 加载框 */
+
+.back {
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}
+
+/* 沾满整个屏幕 */
+
+.allview {
+  width: 100%;
+}
+
+/* 字体 */
+
+.txt {
+  color: white;
+}
+
+.txtf {
+  font-size: 25px;
+}
+
+.txtf1 {
+  font-size: 18px;
+}
+.txtf2 {
+  font-size: 15px;
+}
+
+/* 边框阴影 */
+
+.border-yin {
+  box-shadow: darkgrey 3px 3px 3px 3px;
+  border-radius: 10px;
+}
+
+/* 页尾 */
+
+.endpage {
+  margin: 0px 20% 20px 20%;
+  height: 15px;
+  border-top: 1px dashed #000;
+}
+
+.endpagetxt {
+  font-size: 15px;
+  position: relative;
+  top: -12px;
+  left: 0px;
+  background-color: white;
+}
+
+/* 动画加载 */
+
+/* 加载 */
+
+.loaddingIcon {
+  width: 100%;
+}
+
+/* 图标 */
+
+.icon1 {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+.icon1_1 {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.icon2 {
+  width: 35px;
+  height: 35px;
+  margin: 10px 10px 0px 10px;
+  border-radius: 5px;
+}
+
+.icon3 {
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 5px;
+}
+
+.icon4 {
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 5px;
+}
+
+.icon5 {
+  width: 15px;
+  height: 25px;
+}
+
+.icon6 {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.txt1 {
+  color: #808080;
+}
+
+/* 超连接 */
+
+.a {
+  color: #00bfff;
+}
+
+/* 内边框 */
+
+/* .padding1{
+  padding: 10px 0px 10px 0px;
+} */
+
+.line11 {
+  width: 100%;
+  height: 1px;
+  background-color: #d3d3d3;
+}
+
+.line12 {
+  width: 100%;
+  height: 1px;
+  background-color: #d3d3d3;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.allroow {
+  flex: 1;
+}
+
+/* 横线划掉样式 */
+
+.huadiao {
+  text-decoration: line-through;
+}
+
+/* 字间距 */
+
+.zijianju {
+  letter-spacing: 3rpx;
+}
+
+/* 按钮样式 */
+
+.truebtn {
+  padding: 10px 30vw;
+  background: -webkit-linear-gradient(left, #24d74d, #2eba59); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #24d74d, #2eba59); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #24d74d, #2eba59); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, rgba(36, 215, 77, 1), #2eba59);
+  border-radius: 30px;
+  color: white;
+  margin: 20px 0px;
+}
+
+/* 按钮样式 */
+
+.truebtn1 {
+  padding: 10px 10vw;
+  background: -webkit-linear-gradient(left, #24d74d, #2eba59); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #24d74d, #2eba59); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #24d74d, #2eba59); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, rgba(36, 215, 77, 1), #2eba59);
+  border-radius: 30px;
+  color: white;
+  margin: 20px 0px;
+}
+
+.truebtn2 {
+  padding: 10px 10vw;
+  background: -webkit-linear-gradient(left, #24d74d, #2eba59); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #24d74d, #2eba59); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #24d74d, #2eba59); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, rgba(36, 215, 77, 1), #2eba59);
+  color: white;
+}
+
+/* 字体 */
+
+.font-size1 {
+  font-size: 15px;
+}
+
+.font-size2 {
+  font-size: 15px;
+}
+/* 粗体  加粗 */
+.font-size3 {
+  font-weight: bold;
+}
+
+.font-size4 {
+  font-size: 13px;
+}
+
+.color1 {
+  color: red;
+}
+
+.color2 {
+  color: #999;
+}
+.color3 {
+  color: #fff;
+}
+.color4{
+  color: #000;
+}
+/* 组件 */
+
+/*输入框提示文字 */
+
+.inputPlaClass {
+  font-size: 15px;
+  padding-bottom: 10px;
+  color: #c0c0c0;
+}
+
+
+
+
+/* 表单样式 */
+.plaPla{
+  font-size: 15px;
+  padding: 10px;
+}
+
+
+

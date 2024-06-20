@@ -1,0 +1,343 @@
+view,
+scroll-view,
+swiper,
+button,
+input,
+textarea,
+label,
+navigator,
+image {
+	box-sizing: border-box;
+}
+@for $i from 0 through 12 {
+	.f-#{$i} {
+		flex: $i;
+	}
+	
+}
+/* 
+编译后的css代码
+.f-1{
+	flex: 1;
+}
+.f-2{
+	flex: 2;
+}
+.f-3{
+	flex: 3;
+}
+ .f-4{
+ 	flex: 4;
+ }
+ .f-5{
+ 	flex: 5;
+ }
+ .f-6{
+ 	flex: 6;
+ }
+ .f-7{
+ 	flex: 7;
+ }
+ .f-8{
+ 	flex: 8;
+ }
+ .f-9{
+ 	flex: 9;
+ }
+ .f-10{
+ 	flex: 10;
+ }
+ .f-11{
+ 	flex: 11;
+ }
+ .f-12{   
+ 	flex: 12;
+ }
+ */
+// 定义字体(rpx)单位，10~100rpx  fs-10 ~ fs-100
+@for $i from 10 through 100 {
+	.fs-#{$i} {
+		font-size: $i + rpx;
+	}
+}
+// 定义内外边距，历遍0-500
+@for $i from 0 through 500 {
+	//m-all-30
+	.m-all-#{$i} {
+		margin: $i + rpx;
+	}
+	.m-left-#{$i} {
+		margin-left: $i + rpx;
+	}
+	.m-right-#{$i} {
+		margin-right: $i + rpx;
+	}
+	.m-top-#{$i} {
+		margin-top: $i + rpx;
+	}
+	.m-bottom-#{$i} {
+		margin-bottom: $i + rpx;
+	}
+	//p-all-30
+	.p-all-#{$i} {
+		padding: $i + rpx;
+	}
+	.p-left-#{$i} {
+		padding-left: $i + rpx;
+	}
+	.p-right-#{$i} {
+		padding-right: $i + rpx;
+	}
+	.p-top-#{$i} {
+		padding-left: $i + rpx;
+	}
+	.p-bottom-#{$i} {
+		padding-bottom: $i + rpx;
+	}
+	
+	@each $short, $long in l left, t top, r right, b bottom {
+		// 缩写版，结果如： ml-1 mr-10 mb-100 mt-135
+		// 定义外边距
+			.m#{$short}-#{$i} {
+				margin-#{$long}: $i + rpx;
+			}
+		// 定义内边距，结果如：pl-30 pr-30 pb-30 pt-30
+			.p#{$short}-#{$i} {
+				padding-#{$long}: $i + rpx;
+			}
+		}
+}
+//全局宽高
+@for $i from 0 through 750 {
+	// w-0 ~ w-750
+	.w-#{$i} {
+		width: $i + rpx;
+	}
+	// h-0 ~ h-750
+	.h-#{$i} {
+		height: $i + rpx;
+	}
+	// lh-0 ~ lh-750
+	.lh-#{$i} {
+		line-height: $i + rpx;
+	}
+}
+
+//全局圆角 行高 br-0 ~ br-50
+@for $i from 0 through 50 {
+	// w-0 ~ w-750
+	.br-#{$i} {
+		border-radius: $i + rpx;
+	}
+	// h-0 ~ h-750
+}
+/* 对齐方式 */
+.te-l {
+	text-align: left;
+}
+
+.te-r {
+	text-align: right;
+}
+
+.te-c {
+	text-align: center;
+}
+
+/* 粗体 */
+.fw-b {
+	font-weight: bold;
+}
+
+.fw-l {
+	font-weight: lighter;
+}
+
+.fw-n {
+	font-weight: normal;
+}
+.fw-600 {
+	font-weight: 600;
+}
+.fw-700 {
+	font-weight: 700;
+}
+.fw-800 {
+	font-weight: 800;
+}
+/* 特殊处理 */
+.ty_shanchuxian {
+	text-decoration: line-through;
+	/* 加删除线 */
+}
+/* 多少行（3~15） */
+.t-lc1 {
+	-webkit-line-clamp: 1;
+}
+.t-lc2 {
+	-webkit-line-clamp: 2;
+}
+.t-lc3 {
+	-webkit-line-clamp: 3;
+}
+/*========== flex布局相关 ==========*/
+/* http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html */
+.dp-f {
+	display: flex;
+	display: -webkit-flex;
+	/*在webkit内核的浏览器上使用要加前缀*/
+}
+
+/*快捷水平垂直居中*/
+.dp-fc {
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*行内块元素*/
+.dp-ib {
+	display: inline-block;
+}
+
+/* 主轴方向 */
+.fd-rr {
+	flex-direction: row-reverse;
+	/* 主轴方向从右到左,默认从左到右 */
+}
+
+.fd-c {
+	flex-direction: column;
+	/* 主轴方向从上到下,默认从左到右 */
+}
+
+.fd-cr {
+	flex-direction: column-reverse;
+	/* 主轴方向从下到上,默认从左到右 */
+}
+
+/* flex-wrap属性 */
+.fw-w {
+	flex-wrap: wrap;
+	/* 换行，第一行在上方。 */
+}
+
+.fw-wr {
+	flex-wrap: wrap-reverse;
+	/* 换行，第一行在下方。 */
+}
+
+/* justify-content属性 */
+.jc-fs {
+	justify-content: flex-start;
+	/* 在主轴左对齐-默认 */
+}
+
+.jc-fe {
+	justify-content: flex-end;
+	/* 在主轴右对齐 */
+}
+
+.jc-c {
+	justify-content: center;
+	/* 在主轴居中对齐 */
+}
+
+.jc-sb {
+	justify-content: space-between;
+	/* 两端对齐（两边不留空） */
+}
+
+.jc-sa {
+	justify-content: space-around;
+	/* 等距对齐*/
+}
+/* align-items属性 */
+.ai-fs {
+	align-items: flex-start;
+}
+
+.ai-fe {
+	align-items: flex-end;
+	/* 底对齐 */
+}
+.ai-c {
+	align-items: center;
+	/* 水平居中 */
+}
+.ai-bl {
+	align-items: baseline;
+	/* 水平居中 */
+}
+/* align-content属性(多列对齐) */
+.ac-fs {
+	align-content: flex-start;
+	/* 与交叉轴的起点对齐 */
+}
+
+.ac-fe {
+	align-content: flex-end;
+	/* 与交叉轴的终点对齐 */
+}
+
+.ac-c {
+	align-content: center;
+	/* 与交叉轴的中点对齐。 */
+}
+
+.ac-sb {
+	align-content: space-between;
+	/* 与交叉轴两端对齐，轴线之间的间隔平均分布。 */
+}
+
+.ac-sa {
+	align-content: space-around;
+	/* 每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。 */
+}
+
+/* align-self属性(默认auto),该属性用于子元素特殊处理 */
+.as-fs {
+	align-self: flex-start;
+	/* 自身在交叉左对齐 */
+}
+
+.as-fe {
+	align-self: flex-end;
+	/* 自身在交叉右对齐 */
+}
+
+.as-c {
+	align-self: center;
+	/* 自身在交叉居中对齐 */
+}
+
+.as-bl {
+	align-self: baseline;
+	/* 自身根据文字对齐 */
+}
+/* 定位相关 */
+.pt-f {
+	position: fixed;
+}
+
+.pt-r {
+	position: relative;
+}
+
+.pt-a {
+	position: absolute;
+}
+/* 根据设计图的主题色自行扩展颜色包*/
+.c-999 {
+	color: #999999;
+}
+.c-333 {
+	color: #333333;
+}
+.c-fff{
+	color: #FFFFFF;
+}
+.bc-5D5{
+	background-color: #5D5AFF;
+}

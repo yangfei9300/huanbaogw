@@ -1,0 +1,124 @@
+ .el-carousel__item h3 {
+ 	color: #475669;
+ 	font-size: 18px;
+ 	opacity: 0.75;
+ 	line-height: 300px;
+ 	margin: 0;
+ }
+
+ .el-carousel__item:nth-child(2n) {
+ 	/* background-color: #99a9bf; */
+ }
+
+ .el-carousel__item:nth-child(2n+1) {
+ 	/* background-color: #d3dce6; */
+ }
+
+ .bigviewtongyi {
+ 	padding: 1.302vw 18.75vw;
+ 	color: #333;
+ 	font-size: .833vw;
+ 	margin-right: 3.125vw;
+ }
+
+ .rightvideoview {
+ 	width: calc(100%- 36.458vw);
+ 	height: 15.365vw;
+ }
+
+ .zhanhuititle {
+ 	font-size: 1.667vw;
+ 	margin-bottom: 1.563vw;
+ }
+
+ .zhjianjie {
+ 	line-height: 1.563vw;
+ 	margin-bottom: 1.042vw;
+ 	font-size: 0.8vw;
+ 	width: 36.458vw;
+ 	text-align: left;
+
+ }
+
+ .zhanhuitime {
+ 	color: #0054e1;
+ 	font-size: .938vw;
+ 	font-weight: 600;
+ }
+
+ #title {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	padding: 1.042vw 0 0.3vw 0;
+ 	margin-bottom: 2.083vw;
+ 	color: #333;
+ 	font-size: 1.667vw;
+ 	position: relative;
+ 	align-items: flex-end;
+ 	border-bottom: 3px solid #000000;
+ }
+
+ .lianjietxt {
+ 	display: flex;
+ 	width: 25%;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	margin-bottom: 1.042vw;
+ 	font-weight: 600;
+ 	text-align: center;
+ }
+
+ .hezuomeitoitemimg {
+ 	width: 10.088vw;
+ 	height: 4.167vw;
+ 	text-align: center;
+ 	background: #fff;
+ 	cursor: pointer;
+ 	z-index: 9999;
+ }
+
+ .swiper-box {
+ 	font-size: .833vw;
+ 	background: #0054e1;
+ 	border-radius: 1.042vw;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ 	padding: 1.563vw 1.042vw;
+ 	margin: 0.521vw 1.563vw;
+ 	height: 11.458vw;
+ 	cursor: pointer;
+ 	color: #fff;
+ }
+
+ .img123 {
+ 	width: 3.438vw;
+ }
+
+ .video11 {
+ 	height: 7vw;
+ }
+
+ .leftimg {
+ 	width: 27.083vw;
+ 	height: 15.365vw;
+ 	margin-bottom: 1.042vw;
+ 	margin-right: 5.208vw;
+ }
+ .listvew{
+	 border-bottom: 1px solid #b5b2b2;
+	     line-height: 2.906vw;
+		 height: 2.906vw;
+	     overflow: hidden;
+	     text-overflow: ellipsis;
+	     white-space: nowrap;
+	     cursor: pointer;
+		 text-align: left;
+ }
+ .btnmore{
+	 border: unset;
+	     background: unset;
+	     color: #348942;
+	     font-size: 1.25vw;
+ }

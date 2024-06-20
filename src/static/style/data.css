@@ -1,0 +1,368 @@
+.gearDate {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: block;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2018917;
+  overflow: hidden;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-transform: translateZ(0);
+}
+
+.date_ctrl {
+  vertical-align: middle;
+  background-color: #ffffff;
+  color: #363837;
+  margin: 0;
+  width: 100%;
+  max-width: 750px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9902;
+  overflow: hidden;
+  margin: 0 auto;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  -ms-transform: translateY(0);
+  -moz-transform: translateY(0);
+  background: url(../../assets/commons/data_bg.png);
+  background-size: 100% 100%;
+}
+
+.slideInUp {
+  /* animation: slideInUp .3s ease-in; */
+  /* -webkit-animation: slideInUp .3s ease-in; */
+  /* -ms-animation: slideInUp .3s ease-in; */
+  /* -moz-animation: slideInUp .3s ease-in */
+}
+
+@-webkit-keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+  }
+}
+
+@-ms-keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+  }
+}
+
+.date_roll {
+  padding: 0.5rem 0;
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  color: #ccc;
+  font-weight: bold;
+  background-color: transparent;
+  -webkit-mask: -webkit-gradient(linear, 0% 50%, 0% 100%, from(#debb47), to(rgba(36, 142, 36, 0)));
+  -webkit-mask: -webkit-linear-gradient(top, #debb47 50%, rgba(36, 142, 36, 0));
+}
+
+.date_roll > div {
+  font-size: 3.2em;
+  height: 10em;
+  float: left;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  width: 25%;
+}
+
+/* .date_roll_more>div {
+  width: 25%;
+} */
+
+.date_roll_more > div:nth-child(1) {
+  width: 17%;
+}
+
+.date_roll_more > div:nth-child(2) {
+  width: 20%;
+}
+
+.date_roll_more > div:nth-child(3) {
+  width: 18%;
+}
+
+.date_roll_more > div:nth-child(4) {
+  width: 45%;
+}
+
+.date_roll_minut > div {
+  width: 20%;
+}
+
+.date_roll_mask {
+  /* padding: 0 1em; */
+  -webkit-mask: -webkit-gradient(linear, 0% 40%, 0% 0%, from(#debb47), to(rgba(36, 142, 36, 0)));
+  -webkit-mask: -webkit-linear-gradient(bottom, #debb47 50%, rgba(36, 142, 36, 0));
+}
+
+.date_grid {
+  position: relative;
+  top: 3em;
+  width: 100%;
+  height: 3em;
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 0;
+  font-weight: bold;
+  border-top: 0.01rem solid #968e8e;
+  border-bottom: 0.01rem solid #968e8e;
+}
+
+.date_grid > div {
+  color: #000;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 0.8em;
+  line-height: 2.5em;
+}
+
+.date_info_box {
+  color: #363837;
+  font-size: 1.8em;
+  text-align: center;
+  padding: 0.6em 0;
+  text-align: center;
+  border-bottom: 0.01rem solid #d4d4d4;
+  font-weight: 700;
+}
+
+.date_class_box {
+  text-align: center;
+  padding-top: 0.58rem;
+}
+
+.date_class {
+  display: inline-block;
+  font-size: 34px;
+  width: 227px;
+  height: 84px;
+  font-weight: bold;
+  line-height: 84px;
+  /* padding: .4em 0; */
+  text-align: center;
+  color: #3b568b;
+  border: 0.01rem solid #3b568b;
+  cursor: pointer;
+}
+
+.date_class_box .date_class:first-child {
+  border-top-left-radius: 0.2em;
+  border-bottom-left-radius: 0.2em;
+}
+
+.date_class_box .date_class:last-child {
+  border-top-right-radius: 0.2em;
+  border-bottom-right-radius: 0.2em;
+}
+
+.date_class_box .active {
+  background-color: #3b568b;
+  color: #fff;
+}
+
+.date_btn_box {
+  overflow: hidden;
+  position: relative;
+  padding: 0 0.4rem;
+  margin-bottom: 0.6rem;
+  /* border-top: 0.01rem solid #d4d4d4;
+  margin-top: 1em; */
+}
+
+.date_btn {
+  color: #000;
+  font-size: 1.6em;
+  line-height: 1em;
+  text-align: center;
+  /* padding: .8em 1em; */
+  cursor: pointer;
+  float: left;
+  width: 49.9%;
+  box-sizing: border-box;
+}
+
+.lcalendar_cancel {
+  width: 316px;
+  height: 96px;
+  font-size: 32px;
+  color: #666666;
+  line-height: 96px;
+  background: url(../../assets/commons/time_bt_cc.webp);
+  background-size: 100% 100%;
+  float: left !important;
+  border: none !important;
+}
+
+.lcalendar_finish {
+  width: 316px;
+  height: 96px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 96px;
+  background: url(../../assets/commons/time_bt_de.webp);
+  background-size: 100% 100%;
+  float: right !important;
+}
+
+.date_btn.lcalendar_cancel {
+  border-right: 0.01rem solid #d4d4d4;
+}
+
+.gear {
+  float: left;
+  position: absolute;
+  z-index: 9902;
+  width: 5.5em;
+  margin-top: -9em;
+  cursor: pointer;
+  padding: 3em 0;
+}
+
+.date_roll > div .gear {
+  width: 100%;
+  color: #000;
+}
+
+.tooth {
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* 确认时间 */
+.date_info_box_title {
+  margin-top: 40px;
+  height: 54px;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  color: #333333;
+  line-height: 54px;
+}
+
+.data_com_tit {
+  margin-top: 10px;
+  height: 42px;
+  font-size: 30px;
+  color: #999999;
+  text-align: center;
+}
+
+.data_list {
+  margin: 0.7rem 0;
+}
+
+.data_list .data_com_li {
+  /* height: .5rem; */
+  padding-left: 34px;
+  font-size: 34px;
+  font-weight: bold;
+  /* text-align: center; */
+  color: #bd2016;
+  line-height: 50px;
+}
+
+.data_list .data_com_li span {
+  color: #333333;
+}
+
+.backEdit {
+  padding: 0;
+  width: 316px;
+  height: 96px;
+  font-size: 32px;
+  color: #666666;
+  line-height: 96px;
+  background: url(../../assets/commons/time_bt_cc.webp);
+  background-size: 100% 100%;
+}
+
+.comfireRight {
+  padding: 0;
+  width: 316px;
+  height: 96px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 96px;
+  background: url(../../assets/commons/time_bt_de.webp);
+  background-size: 100% 100%;
+}

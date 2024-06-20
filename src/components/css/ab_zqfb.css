@@ -1,0 +1,15 @@
+.breadcrumb {
+	height: 3.646vw;
+	border-bottom: 1px solid #b5b2b2;
+	font-size: .938vw;
+	padding: 0 18.75vw;
+	display: flex;
+	align-items: center;
+}
+
+#overview {
+	margin: 0 18.75vw;
+	margin-bottom: 2.604vw;
+	border: 1px solid #b5b2b2;
+	padding: 0vw 0vw;
+}

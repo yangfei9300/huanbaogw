@@ -1,0 +1,66 @@
+.breadcrumb {
+	height: 3.646vw;
+	border-bottom: 1px solid #b5b2b2;
+	font-size: .938vw;
+	padding: 0 18.75vw;
+	display: flex;
+	align-items: center;
+}
+
+#com-title {
+	display: flex;
+	justify-content: space-between;
+	padding: 1.302vw 19.792vw;
+	font-size: 1.66vw;
+}
+
+#overview {
+	margin: 0 18.75vw;
+	margin-bottom: 2.604vw;
+	border: 1px solid #b5b2b2;
+	padding: 3.125vw 3.646vw;
+}
+
+#overview .base-row {
+	display: flex;
+	color: #0054e1;
+	font-size: 0.838vw;
+	font-weight: 600;
+	margin-bottom: 1.042vw;
+}
+
+.iconleft {
+	width: 1.067vw;
+	height: 1.067vw;
+}
+
+.address {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.neirongstxt {
+	line-height: 1.771vw;
+	font-size: 0.6vw;
+	text-align: left;
+}
+
+.video112 {
+	width: 30vw;
+}
+
+.hr11 {
+	font-size: 1.667vw;
+	margin-bottom: 2.083vw;
+}
+
+.zhcyys {
+	margin-top: 1.083vw;
+	border-bottom: 1px solid #b5b2b2;
+	padding-bottom: 2vw;
+}
+.rightlogim{
+	width: 13.542vw;
+	    height: auto;
+}

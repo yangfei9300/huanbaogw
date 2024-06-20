@@ -1,0 +1,560 @@
+
+/* //图标 */
+.icon_r {
+  width: 40upx;
+  height: 40upx;
+}
+
+.icon1_r {
+  width: 50upx;
+  height: 50upx;
+  margin-right: 15upx;
+}
+.icon1_r_c {
+  width: 50upx;
+  height: 60upx;
+  margin-right: 15upx;
+}
+
+.icon2_r {
+  width: 40upx;
+  height: 40upx;
+}
+
+.icon3_r {
+  width: 40upx;
+  height: 40upx;
+  margin: 10upx;
+}
+
+.icon4_r {
+  width: 30upx;
+  height: 30upx;
+  padding: 15upx;
+}
+
+.icon5_r {
+  width: 40upx;
+  height: 40upx;
+  margin: 5upx;
+}
+
+.icon6_r {
+  width: 50upx;
+  height: 50upx;
+  flex-shrink: 0;
+}
+
+.icon7_r {
+  width: 20upx;
+  height: 24upx;
+  flex-shrink: 0;
+  margin-left: 10upx;
+}
+.icon8_r {
+  width: 30upx;
+  height: 30upx;
+}
+
+/* input */
+
+.input_pla {
+  font-size: 30upx;
+  padding-left: 20upx;
+  text-align: right;
+}
+
+/* 所有背景 */
+
+.background1_r {
+  background-color: #f3f3f5;
+}
+
+/* 圆角 */
+
+.reaus1_r {
+  border-radius: 40upx;
+}
+
+.reaus2_r {
+  border-radius: 20upx;
+}
+
+.reaus3_r {
+  border-radius: 20upx 20upx 0upx 0upx;
+}
+
+.reaus4_r {
+  border-radius: 0upx 0upx 20upx 20upx;
+}
+
+/* 内边距 */
+
+.padding1_r {
+  padding: 20upx 0upx;
+}
+
+.padding2_r {
+  padding: 20upx 30upx;
+}
+
+.padding3_r {
+  padding: 20upx;
+}
+
+.padding4_r {
+  padding: 20upx 20upx 0upx 20upx;
+}
+
+.padding5_r {
+  padding-top: 15upx;
+}
+
+.padding6_r {
+  padding: 15upx;
+}
+
+.padding6_r_1 {
+  padding: 0upx 15upx;
+}
+
+.padding7_r {
+  padding-bottom: 20upx;
+}
+
+.padding9_r {
+  padding-top: 20upx;
+}
+
+.padding8_r {
+  padding: 30upx 10upx;
+}
+
+.padding10_r {
+  padding-bottom: 10upx;
+  padding-right: 10upx;
+}
+.padding11_r {
+  padding:10upx;
+}
+/* 外边距 */
+
+.margin1_r {
+  margin: 20upx 0px;
+}
+
+.margin2_r {
+  margin: 20upx;
+}
+
+.margin3_r {
+  margin: 20upx 0px 0px 0px;
+}
+
+.margin4_r {
+  margin: 0upx 0px 20upx 0px;
+}
+
+.margin5_r {
+  margin: 20upx 20upx 0px 20upx;
+}
+
+.margin6_r {
+  margin: 0upx 20upx 0px 0upx;
+}
+
+.margin7_r {
+  margin: 0upx 0px 15upx 0px;
+}
+
+/* 边框 */
+
+.border_bottom {
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.border_top {
+  border-top: 1px solid #f5f5f5;
+}
+
+.border_resus {
+  border-radius: 15upx;
+}
+
+/* 分界线
+ */
+
+.line1_r {
+  width: 100%;
+  height: 1px;
+  background: #f5f5f5;
+}
+
+.line2_r {
+  width: 100%;
+  height: 10upx;
+  background: #f5f5f5;
+}
+
+/* 字体 */
+
+.font_size1_r {
+  font-size: 30upx;
+  color: #bfbfbf;
+}
+
+.font_size2_r {
+  font-size: 40upx;
+}
+
+.font_size3_r {
+  font-size: 35upx;
+}
+
+.font_size4_r {
+  font-size: 30upx;
+} 
+
+.font_size5_r {
+  font-size: 25upx;
+}
+
+.font_size6_r {
+  font-size: 60upx;
+}
+
+.font_size7_r {
+  font-weight: bold;
+}
+
+.text_align1_r {
+  text-align: center;
+}
+
+.text_align2_r {
+  text-align: right;
+}
+
+.text_align3_r {
+  text-align: left;
+}
+
+.color1_r {
+  color: #666;
+}
+
+.color2_r {
+  color: red;
+}
+
+.color3_r {
+  color: #999;
+}
+
+.color4_r {
+  color: #ddd;
+}
+
+.color5_r {
+  color: #333;
+}
+
+.color6_r {
+  color: #fff;
+}
+
+/* 隐藏 */
+
+.yincang1 {
+  opacity: 0;
+}
+
+/* 各种demo */
+
+/* 价钱样式 */
+
+.moneyFu {
+  font-size: 30upx;
+  line-height: 70upx;
+}
+
+.moneySum {
+  font-size: 50upx;
+  line-height: 50upx;
+}
+
+.moneyFu1 {
+  font-size: 25upx;
+  line-height: 50upx;
+}
+
+.moneySum1 {
+  font-size: 40upx;
+  line-height: 40upx;
+}
+
+/* 按钮 */
+
+.btnBottom {
+  width:300upx;
+  padding: 20upx 0upx;
+  background: rgba(56, 64, 77, 1);
+  color: rgba(253, 221, 169, 1);
+  margin-top: 30upx;
+  border-radius: 50upx;
+  text-align: center;
+}
+
+.btnBottom1 {
+  padding: 20upx 120upx;
+  background-color: #38404b;
+  color: rgba(253, 221, 169, 1);
+  margin-top: 30upx;
+  border-radius: 50upx;
+  width: 350upx;
+  text-align: center;
+}
+
+.btnBottom2 {
+  padding: 10upx 30upx;
+  background: linear-gradient(0deg, rgba(255, 80, 68, 1), rgba(230, 1, 33, 1));
+  color: white;
+  margin-top: 30upx;
+  border-radius: 50upx;
+  text-align: center;
+  font-size: 28upx;
+}
+
+.btnBottom3 {
+  padding: 10upx 30upx;
+  background-color: white;
+  margin-top: 30upx;
+  border-radius: 50upx;
+  text-align: center;
+  font-size: 28upx;
+  border: 1px solid rgba(204, 204, 204, 1);
+}
+
+.btnBottom4 {
+  padding: 5upx 25upx;
+  background: linear-gradient(0deg, rgba(255, 80, 68, 1), rgba(230, 1, 33, 1));
+  color: white;
+  border-radius: 50upx;
+  text-align: center;
+  font-size: 25upx;
+}
+
+.btnBottom5 {
+  padding: 10upx 30upx;
+  background: linear-gradient(0deg, rgba(255, 80, 68, 1), rgba(230, 1, 33, 1));
+  color: white;
+  border-radius: 50upx;
+  text-align: center;
+  font-size: 25upx;
+}
+
+/* 带边框的按钮 */
+
+.btn_border {
+  padding: 10upx 18upx;
+  border-radius: 50upx;
+  text-align: center;
+  font-size: 22upx;
+  background: rgba(56, 64, 77, 1);
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(253, 221, 169, 1);
+  letter-spacing:3upx;
+  margin-top:20upx;
+  border:1px solid #38404b;
+}
+.btn_border_1 {
+  padding: 7upx 26upx;
+  border-radius: 50upx;
+  text-align: center;
+  font-size: 22upx;
+  border: 1px solid rgba(207, 162, 94, 1);
+  background: rgba(255, 255, 255, 1);
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(207, 162, 94, 1);
+}
+
+.btn_border_2 {
+  padding: 11upx 26upx;
+  border-radius: 50upx;
+  text-align: center;
+  font-size: 24upx;
+  border: 1px solid rgba(204, 204, 204, 1);
+  background: rgba(255, 255, 255, 1);
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(153, 153, 153, 1);
+}
+
+/* 层级 */
+
+.z_index1_r {
+  z-index: 1000;
+}
+
+.z_index2_r {
+  z-index: 1001;
+}
+
+.z_index3_r {
+  z-index: 1002;
+}
+
+.z_index4_r {
+  z-index: 999;
+}
+
+/* 组件样式 */
+
+.input_pla {
+  font-size: 30upx;
+  /* padding-left: 10upx;
+  padding-right: 10upx;
+  padding-top: 10upx;
+  padding-bottom: 10upx; */
+  padding: 5upx 15upx 15upx 15upx;
+  line-height: 50upx;
+}
+
+.inputClass {
+  /* padding-left: 10upx;
+  padding-right: 10upx;
+  padding-top: 10upx;
+  padding-bottom: 10upx; */
+  padding: 5upx 15upx 15upx 15upx;
+  font-size: 30upx;
+  width: 100%;
+  background-color: #eee;
+  line-height: 50upx;
+  /* z-index: 999; */
+}
+
+/* 占比 */
+
+.flex1_r {
+  flex: 1;
+}
+
+.flex2_r {
+  flex: 4;
+}
+
+.flex3_r {
+  flex: 2;
+}
+
+/* 文字不换行 */
+
+.buhuanhang {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* 占位图 */
+
+.zhanweituImg {
+  width: 80%;
+  margin: 10% 10% 10% 10%;
+}
+
+/* 多选框 */
+checkbox radio .wx-checkbox-input.wx-checkbox-input-checked {
+  background: linear-gradient(0deg, #38404d, #38404d);
+  color: white;
+  border: 1px solid #fff;
+}
+
+radio checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background: linear-gradient(-75deg, #38404d, #38404d);
+}
+
+radio, checkbox {
+  transform: scale(0.7);
+}
+
+/* 灰背景 */
+
+.huuibeijing {
+  width: 750upx;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+.btn-default {
+  width:50upx;
+  height: 50upx;
+  background-size: 170px 49px;
+  -webkit-background-size: 170px 49px;
+}
+.btn{
+  width: 80upx;
+  background-color: #ffffff;
+  color: #FFF;
+  line-height: 34upx;
+}
+.btn::after {
+  border: 0;
+}
+
+/* 分隔文字样式 */
+.ge_txt{
+  background-color: white;
+  padding:10upx 15upx;
+  min-width: 150upx;
+  max-width:150upx;
+  text-align: center;
+  margin:0upx 20upx;
+  font-size:30upx;
+font-weight:bold;
+color:rgba(207,162,94,1);
+line-height:57upx;
+}
+.fengeLine{
+  background: #CFA25E;
+  height: 3upx;
+  width: 160upx;
+}
+.fengeView{
+  border-top:3px solid #CFA25E;
+}
+
+
+/* 百分百好用的占位图 */
+
+.zhanweibaijing {
+
+  background-image: url('data:image/png;base64,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');
+    background-size: 100% 100%;
+}
+
+
+/* --------------uniapp----------- */
+.gouwucheanniu{
+	width:192upx;
+	height:68upx;
+	background:rgba(69,112,206,1);
+	border-radius:34upx;
+	text-align: center;
+	color: #FFFFFF;
+	font-size:32upx;
+	line-height: 68upx;
+	font-family:PingFang SC;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+} 
+
+.pore{
+	position: relative;
+}
+.poab{
+	position: absolute;
+}
