@@ -48,7 +48,8 @@
 					</div>
 				</div>
 				<div class="colonn allline">
-					<div class="listvew" v-for="(item,index) in newsList" @click="toLink(item.url)">{{item.title}}</div>
+					<div class="listvew" v-for="(item,index) in newsList" 
+					@click="toLink(item.url)">{{item.title}}</div>
 				</div>
 			</div>
 			<div style="height: 20px;"></div>
@@ -82,7 +83,6 @@
 
 
 		<div class="bigviewtongyi colonn" style="background-color: #e8e8e8;padding: 1.302vw 18.75vw;">
-
 			<div class="" id="title">
 				<h1 style="font-size: 2vw;"> 往届精彩 <span style="font-size: 1.5vw;">Previous exciting events</span></h1>
 				<div class="circle-box"><span class="first-span"></span><span></span></div>
@@ -171,7 +171,6 @@
 		data() {
 			return {
 				mtiLogos: [
-					ss
 					['中国泵阀网.png', '中国泵阀网1.png', '中国空分网logo_170x81.jpg', '云推B2B商务网logo_170x81.jpg',
 						'云推微商网logo_170x81.jpg', '五金机械网.png', '产业世界.png', '人工智能网 拷贝.png', '代理加盟网logo_170x81.jpg',
 						'仪表网 拷贝.png'
@@ -205,9 +204,9 @@
 					'https://shandongtibohui.zsyflive.com/profile/upload/hbgw/3411a7d84ab6664be54f49af9a1bbd4.jpg',
 				],
 				newVideo: [
-					'https://shandongtibohui.zsyflive.com/profile/upload/hbgw/e1bd62c7bbcdba1438711794548b10a5.mp4',
-					"https://shandongtibohui.zsyflive.com/profile/upload/hbgw/aa785edb87bf03ae05b6bd19493c00d8.mp4",
-					"https://shandongtibohui.zsyflive.com/profile/upload/hbgw/47960954f2c79f3aafdda64e0b78a479.mp4",
+					'https://meili-media.oss-cn-beijing.aliyuncs.com/huanbao/%E5%AE%A3%E4%BC%A0%E7%89%87.mp4',
+					"https://meili-media.oss-cn-beijing.aliyuncs.com/huanbao/%E5%AE%A3%E4%BC%A0%E8%A7%86%E9%A2%91%205.31.mp4",
+					"https://meili-media.oss-cn-beijing.aliyuncs.com/huanbao/%E5%AE%A3%E4%BC%A0%E8%A7%86%E9%A2%91.mp4",
 					// "https://shandongtibohui.zsyflive.com/profile/upload/hbgw/0fd5c408f1293b3e500fd62a83f42b6b.mp4"
 				],
 				//新闻左边的图片
@@ -215,23 +214,24 @@
 				'hezuomeiti': 'https://shandongtibohui.zsyflive.com/profile/upload/hbgw/hezuomeiti.png',
 				//新闻列表
 				newsList: [
-					// {
-					// 	'title': '启动招商 | 第10届绿博会 重磅启航! 招展招商全面启动!',
-					// 	'url': 'https://mp.weixin.qq.com/s?__biz=MzkzODI2MzEwNg==&mid=2247504904&idx=1&sn=0a531d1bc91625264903a782c5ed4f1d&chksm=c2804325f5f7ca33171d0a528d5783436778674809fe7e470596869c3863087103c0850651df#rd'
-					// },
-					// {
-					// 	'title': '必看！《人民日报》解读《空气质量持续改善行动计划》',
-					// 	'url': 'https://mp.weixin.qq.com/s/_Gq98me4eSHg47Px59c4IA'
-					// },
-					// {
-					// 	'title': '《区域环境空气臭氧自动监测质量评估技术要求》明年6月起实施！附评估表！',
-					// 	'url': 'https://mp.weixin.qq.com/s/DwSRcn7Hh2eJ6n0r6pP9pA'
-					// },
+					{
+						'title': '第10届国际绿色环保展，预登记，享好礼，您参观我买单！',
+						'url': 'https://mp.weixin.qq.com/s?__biz=MzkzODI2MzEwNg==&mid=2247506129&idx=1&sn=50c460b53c7b1ab7cde733ca666e8580&chksm=c2804ffcf5f7c6ea90a53c4b48fa156b7b15467870f5ddfcce4433d71c66637ba3cd7c64d87e#rd'
+					},
+					{
+						'title': '第10届国际绿色环保产业博览会邀请函！',
+						'url': 'https://mp.weixin.qq.com/s?__biz=MzkzODI2MzEwNg==&mid=2247506201&idx=1&sn=070aa1db74c672160451a722c23f145b&chksm=c2804e34f5f7c7222e0d9f2d5e55bd05424f9456ad3fdd2955b3d46ed4cd98fe429d7e686e78#rd'
+					},
+					{
+						'title': '第10届国际绿色环保产业博览会--上届回顾',
+						'url': 'https://mp.weixin.qq.com/s?__biz=MzkzODI2MzEwNg==&mid=2247506257&idx=1&sn=2ffc84b5670efb13d09ebe374bfbbc79&chksm=c2804e7cf5f7c76af244045fb46f45a52464ddef3be37d04f9f38070acfd43975c1d9b96b546#rd'
+					}
+					// ,
 					// {
 					// 	'title': '一图读懂《水污染防治法》所有亮点！',
 					// 	'url': 'https://mp.weixin.qq.com/s/i9vfnHLfd2eciMDe47hMUA'
 					// },
-					// {
+					// {  
 					// 	'title': '环保科普 | 一图读懂生态安',
 					// 	'url': 'https://mp.weixin.qq.com/s/SLS14K1zjTBS2mgp08HPXQ'
 					// },
@@ -239,24 +239,24 @@
 				// 展览板块
 				'zhanlanbankuai': [{
 						'icon': 'https://shandongtibohui.zsyflive.com/profile/upload/hbgw/ban1.png',
-						'title': '环境综合服务展区'
+						'title': '水与污水技术及装备展区'
 					},
 					{
 						'icon': 'https://shandongtibohui.zsyflive.com/profile/upload/hbgw/ban2.png',
-						'title': '水与污水处理技术及装备展区'
-					}, {
-						'icon': 'https://shandongtibohui.zsyflive.com/profile/upload/hbgw/ban3.png',
 						'title': '大气污染治理技术及装备展区'
 					}, {
+						'icon': 'https://shandongtibohui.zsyflive.com/profile/upload/hbgw/ban3.png',
+						'title': '环境监测仪器及设备展区'
+					}, {
 						'icon': 'https://shandongtibohui.zsyflive.com/profile/upload/hbgw/ban4.png',
-						'title': '环境监测检及应急装备与技术展区'
+						'title': '固废处理与资源化利用技术及装备展区'
 					}, {
 						'icon': 'https://shandongtibohui.zsyflive.com/profile/upload/hbgw/ban5.png',
-						'title': '固废处理及资源化利用'
+						'title': '环境综合服务展区'
 					}, {
 						'icon': 'https://shandongtibohui.zsyflive.com/profile/upload/hbgw/ban6.png',
-						'title': '土壤、地下水及环境修复'
-					}
+						'title': '土壤与地下水技术及装备展区'
+					}    
 				],
 				// 往期精彩
 				wqjcimgs: [

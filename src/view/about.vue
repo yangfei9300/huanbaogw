@@ -48,6 +48,7 @@
 		<jchg  v-if="index==23"></jchg>
 		<hzmt  v-if="index==24"></hzmt>
 		<index  v-if="index==26"></index>
+		<gflt  v-if="index==27"></gflt>
 		 
 		
 		<footerview   @myEvent="myEvent" ></footerview>
@@ -77,14 +78,14 @@
 	import jchg from '../components/meitizhongxin/jchg.vue';
 	import hzmt from '../components/meitizhongxin/hzmt.vue';
 	import index from '../components/index.vue';
-
+	import gflt from '../components/tongqihuodong/gflt.vue';
 
 	export default {
 		name: 'Home',
 		components: {
 			topview,
 			footerview,
-			topmenus,
+			topmenus,gflt, 
 			ab_zhgk,ab_zhbk,ab_zqfb,ab_zzdw,ad_xzzx,
 			whcz,zztg,zssc,
 			zygz,cgsc,jtzn,jdxx,hylt,pthd,lianxiwomen,

@@ -60,6 +60,8 @@
 					style="position: absolute;top:0px;width: 7vw;z-index: 99999;">
 						<div class="noselmenbrsus"  >同期活动</div>
 						<div class="noselmen"   @click.stop="topage(16)">高峰论坛</div>
+						<div class="noselmen"   @click.stop="topage(27)">论坛活动</div>
+						
 						<!-- <div class="noselmen" @click.stop="topage(17)">专业技术研讨会</div> -->
 					</div>
 				</div>
