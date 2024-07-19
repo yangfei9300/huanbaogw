@@ -215,6 +215,10 @@
 				//新闻列表
 				newsList: [
 					{
+						'title': '关于“黄河流域生态保护协同创新与产业发展高峰论坛暨第10届国际绿色环保产业博览会”举办时间调整的通知',
+						'url': 'https://qlyjc.oss-cn-hangzhou.aliyuncs.com/huanbao/%E9%AB%98%E5%B3%B0%E8%AE%BA%E5%9D%9B%E6%9A%A8%E7%AC%AC10%E5%B1%8A%E7%BB%BF%E5%8D%9A%E4%BC%9A%E4%B8%BE%E5%8A%9E%E6%97%B6%E9%97%B4%E8%B0%83%E6%95%B4%E7%9A%84%E9%80%9A%E7%9F%A5.pdf'
+					},
+					{
 						'title': '第10届国际绿色环保展，预登记，享好礼，您参观我买单！',
 						'url': 'https://mp.weixin.qq.com/s?__biz=MzkzODI2MzEwNg==&mid=2247506129&idx=1&sn=50c460b53c7b1ab7cde733ca666e8580&chksm=c2804ffcf5f7c6ea90a53c4b48fa156b7b15467870f5ddfcce4433d71c66637ba3cd7c64d87e#rd'
 					},
